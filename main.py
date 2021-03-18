@@ -3,7 +3,7 @@ import time
 import ctypes
 
 screen = rotatescreen.get_primary_display()
-for i in range(10000):
+for i in range(1000000000):
      time.sleep(1)
      screen.rotate_to(i*90 % 360)
 
